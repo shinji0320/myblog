@@ -10,3 +10,4 @@ class PostsController extends Controller
         return view('posts.index');
     }
 }
+
