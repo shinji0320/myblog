@@ -17,7 +17,7 @@ Blog Posts
       </li>
       <form method="post" action="{{ url('/posts', $post->id) }}" id="form_{{ $post->id }}">
         {{ csrf_field() }}
-        {{ method_filed('delete') }}
+        {{ method_field('delete') }}
 
     　</form>
     @empty
