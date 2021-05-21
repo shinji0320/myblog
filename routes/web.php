@@ -20,3 +20,4 @@ Route::patch('/posts/{post}', 'PostsController@update');
 Route::delete('/posts/{post}', 'PostsController@destroy');
 
 Route::post('/post/{post}/comments', 'CommentsController@store');
+Route::delete('/post/{post}/comments/{comment}', 'CommentsController@destroy');
