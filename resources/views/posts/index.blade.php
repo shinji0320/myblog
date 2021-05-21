@@ -28,4 +28,3 @@ Blog Posts
 @endsection
 
 
-
